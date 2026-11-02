@@ -1,0 +1,213 @@
+{
+  "lengths": {
+    "light": {
+      "name": "轻量",
+      "range": [
+        1800,
+        2500
+      ],
+      "use": "单条消息、一个明确技巧"
+    },
+    "standard": {
+      "name": "标准",
+      "range": [
+        3000,
+        4500
+      ],
+      "use": "资讯分析或完整教程，默认"
+    },
+    "deep": {
+      "name": "深度",
+      "range": [
+        5000,
+        7000
+      ],
+      "use": "多案例、对比、机制与失败复盘"
+    },
+    "auto": {
+      "name": "自由发挥",
+      "range": [
+        300,
+        20000
+      ],
+      "use": "由材料与读者收益决定篇幅，提纲记录实际预算和理由，不为字数补水"
+    }
+  },
+  "themes": {
+    "green-white-clean": {
+      "name": "绿白清简",
+      "use": "操作教程、工具上手、步骤较多",
+      "palette": [
+        "#173D35",
+        "#FFFFFF",
+        "#57A892"
+      ]
+    },
+    "ink-blue-editorial": {
+      "name": "墨蓝刊读",
+      "use": "资讯分析、行业判断、连续阅读",
+      "palette": [
+        "#183247",
+        "#F2F6F9",
+        "#315B7D"
+      ]
+    },
+    "graphite-dossier": {
+      "name": "石墨档案",
+      "use": "代码、实验记录、技术机制、密集对比",
+      "palette": [
+        "#111827",
+        "#FFFFFF",
+        "#4B5563"
+      ]
+    },
+    "sand-gold-journal": {
+      "name": "沙金手记",
+      "use": "个人心得、使用复盘、经验叙事",
+      "palette": [
+        "#4E4031",
+        "#FAF6EF",
+        "#A78B5B"
+      ]
+    },
+    "mist-purple-story": {
+      "name": "雾紫叙事",
+      "use": "产品故事、创意应用、轻松叙事",
+      "palette": [
+        "#443454",
+        "#FAF7FC",
+        "#9276AB"
+      ]
+    },
+    "moonwhite-literary": {
+      "name": "月白笺书",
+      "use": "散文、书评、诗歌赏析、人物随笔",
+      "palette": [
+        "#303C42",
+        "#D6ECF0",
+        "#FFFFFF",
+        "#815750",
+        "#DFE7E9"
+      ],
+      "features": [
+        "书页式左对齐标题",
+        "首行缩进与舒展正文",
+        "独立摘句、轻框图片"
+      ],
+      "source": "bundled-confirmed-original"
+    },
+    "cinnabar-cultural": {
+      "name": "朱砂文藏",
+      "use": "历史故事、文博、传统文化、城市人文",
+      "palette": [
+        "#962D38",
+        "#E9D8B5",
+        "#FCFAF5",
+        "#342F2C",
+        "#D4C5AE"
+      ],
+      "features": [
+        "朱砂小章印",
+        "轻量章题、卷首双线",
+        "暖白展签与清爽细框"
+      ],
+      "source": "bundled-confirmed-original"
+    },
+    "celadon-knowledge": {
+      "name": "天青格物",
+      "use": "AI科普、原理拆解、方法教程、模型测评",
+      "palette": [
+        "#245A64",
+        "#86B6BB",
+        "#EEF6F6",
+        "#FFFFFF",
+        "#2F3437"
+      ],
+      "features": [
+        "白底标题与开放编号",
+        "深青结论卡",
+        "紧凑步骤、隔行浅底表格"
+      ],
+      "source": "bundled-confirmed-original"
+    },
+    "pine-fieldnotes": {
+      "name": "松烟行旅",
+      "use": "旅行攻略、户外、城市漫游、自然观察",
+      "palette": [
+        "#344D40",
+        "#849171",
+        "#F4F3EA",
+        "#805132",
+        "#313832"
+      ],
+      "features": [
+        "左对齐开篇、宽幅照片",
+        "索引式浅底章题",
+        "赭色观察笔记与路线列表"
+      ],
+      "source": "bundled-confirmed-original"
+    },
+    "rouge-daily": {
+      "name": "胭脂生活",
+      "use": "情感随笔、自我成长、日常生活、关系沟通",
+      "palette": [
+        "#884454",
+        "#E4C6D0",
+        "#FBF5F6",
+        "#332E30",
+        "#D7B8C1"
+      ],
+      "features": [
+        "轻章题、连续正文",
+        "仅摘句保留柔和圆角",
+        "直角图片与开放列表"
+      ],
+      "source": "bundled-confirmed-original"
+    }
+  },
+  "fonts": {
+    "system": {
+      "name": "系统无衬线",
+      "stack": "-apple-system,BlinkMacSystemFont,\"PingFang SC\",\"Microsoft YaHei\",Arial,sans-serif",
+      "note": "默认推荐，常用设备回退稳定"
+    },
+    "kai": {
+      "name": "正楷 / 楷体",
+      "stack": "\"Kaiti SC\",STKaiti,KaiTi,serif",
+      "note": "未安装楷体的设备会回退到衬线字体"
+    },
+    "song": {
+      "name": "宋体",
+      "stack": "\"Songti SC\",STSong,SimSun,serif",
+      "note": "书刊阅读感，实际字形随设备变化"
+    },
+    "yahei": {
+      "name": "微软雅黑",
+      "stack": "\"Microsoft YaHei\",\"PingFang SC\",sans-serif",
+      "note": "Windows优先，手机使用可用回退字体"
+    },
+    "pingfang": {
+      "name": "苹方",
+      "stack": "\"PingFang SC\",\"Microsoft YaHei\",sans-serif",
+      "note": "苹果设备优先，其他设备回退"
+    },
+    "theme": {
+      "name": "跟随排版",
+      "stack": "",
+      "note": "仅用户明确选择时，各主题采用原字体"
+    }
+  },
+  "writing_styles": {
+    "khazix": {
+      "name": "卡兹克写作风格",
+      "skill": "khazix-writer",
+      "available": true
+    }
+  },
+  "visual_styles": {
+    "cinematic-editorial": "电影感杂志封面：深色场景、冷暖光影、金白大字、丰富空间层次（当前默认）",
+    "editorial": "平面杂志编辑风：文章专属概念、克制配色、鲜明字体层级",
+    "product-photo": "产品摄影风：真实材质、单一主体、明确光影",
+    "clear-diagram": "清晰图解风：少量节点、可读标签、准确关系"
+  }
+}

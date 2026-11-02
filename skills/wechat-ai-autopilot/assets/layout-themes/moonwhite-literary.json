@@ -1,0 +1,27 @@
+{
+  "id": "moonwhite-literary",
+  "name": "月白笺书",
+  "description": "段落舒展、摘句独立的文学书页；适合散文、书评、诗歌赏析、人物随笔",
+  "order": 101,
+  "default": false,
+  "accent": "#486570",
+  "hue_range": 60,
+  "heading_label": null,
+  "h1_watermark": "",
+  "h1_kicker": "",
+  "css": "\n.note-to-mp {box-sizing:border-box;max-width:640px;margin:0 auto;padding:18px 20px 40px;background:#FFFFFF;color:#30383D;font-family:'Songti SC',STSong,SimSun,serif;font-size:16px;line-height:1.9!important;word-break:break-word;overflow-wrap:break-word;}\n.note-to-mp * {box-sizing:border-box;}\n.note-to-mp p {margin:0 0 22px!important;font-size:16px;line-height:1.9!important;letter-spacing:.03em;text-align:justify!important;}\n.note-to-mp h1 {margin:0 0 28px;font-size:24px;font-weight:700;line-height:1.5!important;word-break:break-word;}\n.note-to-mp h2 {margin:44px 0 22px!important;font-size:20px;font-weight:700;line-height:1.5!important;}\n.note-to-mp h3 {margin:28px 0 16px!important;font-size:17px;font-weight:700;line-height:1.55!important;}\n.note-to-mp h4,.note-to-mp h5,.note-to-mp h6 {margin:24px 0 12px!important;font-size:16px;font-weight:700;line-height:1.55!important;}\n.note-to-mp strong {font-weight:700;}\n.note-to-mp em {font-style:italic;}\n.note-to-mp a {text-decoration:none;border-bottom:1px solid currentColor;}\n.note-to-mp blockquote {margin:28px 0!important;padding:20px;}\n.note-to-mp blockquote p {margin:0!important;font-size:15px;line-height:1.85!important;text-align:inherit!important;}\n.note-to-mp ul,.note-to-mp ol {margin:0 0 24px;padding:0 0 0 25px;line-height:1.85!important;}\n.note-to-mp li {margin:10px 0;padding-left:3px;font-size:16px;line-height:1.85!important;}\n.note-to-mp code {padding:2px 5px;border-radius:3px;background:#F1F4F5;color:#34474F;font-family:Menlo,Monaco,Consolas,monospace;font-size:14px;white-space:normal;overflow-wrap:anywhere;}\n.note-to-mp .code-section {margin:24px 0;overflow:hidden;border:1px solid #DFE5E8;background:#F6F8F9;border-radius:4px;}\n.note-to-mp .code-section pre {margin:0;padding:16px;white-space:pre-wrap!important;word-break:break-all!important;}\n.note-to-mp .code-section code {display:block;padding:0;background:transparent;border:none;font-size:13px;line-height:1.7!important;}\n.note-to-mp img {display:block;width:100%;max-width:100%;height:auto;margin:28px auto;border:0;}\n.note-to-mp hr {height:0;border:0;border-top:1px solid #DFE5E8;margin:40px 0;}\n.note-to-mp table {width:100%;table-layout:fixed;box-sizing:border-box;margin:24px 0;border-collapse:collapse;border-spacing:0;font-family:'Songti SC',STSong,SimSun,serif;font-size:13px;line-height:1.7!important;}\n.note-to-mp th,.note-to-mp td {box-sizing:border-box;padding:10px 9px;text-align:left;vertical-align:top;white-space:normal;word-break:break-word;overflow-wrap:anywhere;border-bottom:1px solid #E1E5E7;}\n.note-to-mp th {font-weight:700;}\n\n.note-to-mp {max-width:610px;padding:30px 25px 48px;color:#303C42;font-size:17px;line-height:1.94!important;}\n.note-to-mp p {font-size:17px;line-height:1.94!important;letter-spacing:.025em;margin-bottom:24px!important;}\n.note-to-mp > p {text-indent:2em;}\n.note-to-mp h1 {text-align:left;font-size:24px;font-weight:600;line-height:1.6!important;letter-spacing:.055em;padding:0 0 22px;margin-bottom:30px;border-bottom:5px solid #D6ECF0;color:#303C42;}\n.note-to-mp h1 + p {text-indent:0;color:#486570;}\n.note-to-mp h2 {text-align:left;margin:48px 0 24px!important;padding:0;font-size:21px;font-weight:600;letter-spacing:.08em;color:#303C42;}\n.note-to-mp h3 {margin:30px 0 18px!important;font-weight:500;font-size:18px;color:#486570;}\n.note-to-mp h4,.note-to-mp h5,.note-to-mp h6 {color:#486570;font-weight:600;}\n.note-to-mp strong {color:#303C42;text-decoration:underline;text-decoration-color:#ADC9D0;text-decoration-thickness:1px;text-underline-offset:4px;}\n.note-to-mp em,.note-to-mp a {color:#815750;}\n.note-to-mp blockquote {margin:34px 19px 36px!important;padding:12px 0;background:#FFFFFF;color:#815750;text-align:left;border:0;}\n.note-to-mp blockquote p {text-indent:0;font-size:19px;font-weight:500;line-height:1.95!important;letter-spacing:.04em;}\n.note-to-mp ul {list-style-type:circle;padding-left:25px;}\n.note-to-mp ol {list-style-type:lower-roman;padding-left:31px;}\n.note-to-mp li {margin:15px 0;font-size:16px;line-height:1.95!important;}\n.note-to-mp li::marker {color:#815750;}\n.note-to-mp img {padding:5px;border:1px solid #DFE7E9;background:#FFFFFF;border-radius:0;margin:32px auto;}\n.note-to-mp hr {width:28%;margin:44px 0;border-top:1px solid #ADC9D0;}\n.note-to-mp code {background:#F5F8F9;color:#486570;border-radius:0;}\n.note-to-mp .code-section {border:0;border-top:1px solid #DFE7E9;border-bottom:1px solid #DFE7E9;border-radius:0;background:#FAFCFD;}\n.note-to-mp .code-section code {color:#303C42;}\n.note-to-mp th {background:#FFFFFF;color:#486570;border-top:1px solid #ADC9D0;border-bottom:1px solid #ADC9D0;font-weight:600;}\n.note-to-mp td {background:#FFFFFF;color:#303C42;border-color:#DFE7E9;}\n",
+  "evidence": {
+    "source_type": "original",
+    "source": "原创排版；仅借鉴配色文化意象，参考链接见本预览包sources.json",
+    "observed": [
+      "官方参考以天青、月白、朱砂等传统色名说明设计灵感；未复刻参考网站排版"
+    ],
+    "inferred": [
+      "本稿HEX是为现代手机阅读调整的设计色值，不是历史颜色的唯一标准"
+    ],
+    "unobserved": [
+      "尚未在微信公众平台及真实手机客户端验收"
+    ],
+    "confidence": "medium"
+  }
+}

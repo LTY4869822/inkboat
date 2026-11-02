@@ -1,0 +1,32 @@
+{
+  "audience": "普通 AI 使用者与内容创作者",
+  "author": "",
+  "account_name": "",
+  "timezone": "Asia/Shanghai",
+  "theme": "auto",
+  "length_preset": "standard",
+  "length": {},
+  "font": "system",
+  "custom_font": "",
+  "writing_style": "khazix",
+  "intake_mode": "ask_missing",
+  "visual_style": "editorial",
+  "visual_reference_files": [],
+  "body_images": "auto",
+  "max_topic_retries": 2,
+  "skills": {},
+  "requested_image_model": "",
+  "image_backend": "auto",
+  "image_generation": {
+    "mode": "auto",
+    "provider": "",
+    "model": "",
+    "key_env": ""
+  },
+  "output_mode": "draft_after_layout_selection",
+  "presentation": {
+    "citations": "internal",
+    "image_captions": "none"
+  },
+  "screenshot_preference": "contextual"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "墨舟 InkBoat · 公众号创作工坊"
+  short_description: "公众号写作与学习，真实配图、十套排版、二十款动效和可保存工坊"
+  default_prompt: "使用 $wechat-ai-autopilot，按我的请求写作、改稿或学习公众号文章：写作先补齐选题、篇幅、字体和文风，按选定文风写作后用Humanizer审稿，保留文风与事实，完成核验、配图和黑色正文的带动效文章预览，可进入工坊调整并保存；用户确认当前保存版后，保留完整排版上传已连接公众号草稿箱；内容学习先读全文并交总结，确认后合并经验；明确学习文风时用writing-dna提炼规则和样稿，合格后自动加入写前文风选项。"
+
+# 文风学习入口：references/style-distillation.md；用工作目录风格库动态生成文风选项。

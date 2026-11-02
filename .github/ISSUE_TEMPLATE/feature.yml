@@ -1,0 +1,13 @@
+name: 功能或内容方法建议
+description: 从读者与作者的问题出发
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决什么具体问题
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 实际案例、适用范围和希望看到的结果

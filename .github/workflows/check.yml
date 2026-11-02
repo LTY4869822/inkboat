@@ -1,0 +1,29 @@
+name: Check skill package
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.12']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install Pillow PyYAML
+      - run: python -m unittest discover -s skills/wechat-ai-autopilot/tests -p "test_*.py"
+      - run: node skills/wechat-ai-autopilot/tests/test_browser_start.cjs
+      - run: node skills/wechat-ai-autopilot/tests/test_runtime_resolution.cjs
+      - run: node skills/wechat-ai-autopilot/tests/test_studio_bootstrap.cjs
+      - run: python skills/wechat-ai-autopilot/scripts/release_check.py --root skills/wechat-ai-autopilot
+      - run: python scripts/check_public.py
+      - run: python skills/wechat-ai-autopilot/scripts/package_skill.py --output dist/wechat-ai-autopilot.zip

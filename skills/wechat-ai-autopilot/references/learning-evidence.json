@@ -1,0 +1,380 @@
+{
+  "study_date": "2026-10-04",
+  "confirmation": "本批八项经验已获用户明确认可",
+  "counts": {
+    "夕小瑶科技说": 50,
+    "数字生命卡兹克": 50,
+    "卡尔的AI沃茨": 50
+  },
+  "unique_articles": 150,
+  "scope": "完整文字正文；混合原文与明确署名全文转载；非连续最新50篇；媒体范围逐篇说明；未做点击率因果实验",
+  "packaging": "仅公开链接、元数据和原创内容观察，不含全文、个人路径、用户账号或操作记录",
+  "rules": [
+    {
+      "id": "L01",
+      "rule": "先识别读者意图并允许新证据修正角度",
+      "evidence_ids": [
+        "K07",
+        "K36",
+        "C49"
+      ],
+      "applicability": "所有选题；已有请求可推断，不必每篇新增提问",
+      "limits": "不让一条反例消除其他有效证据或擅自改变用户选题"
+    },
+    {
+      "id": "L02",
+      "rule": "按主任务决定材料与篇幅重心",
+      "evidence_ids": [
+        "X07",
+        "X28",
+        "K12",
+        "C02",
+        "C11"
+      ],
+      "applicability": "发布、评测、教程、案例、选型、研究、人物及观点",
+      "limits": "分类仅供判断，不是配额或固定文章模板"
+    },
+    {
+      "id": "L03",
+      "rule": "带着问题追到原始结果与案例再写",
+      "evidence_ids": [
+        "C14",
+        "C46",
+        "X28"
+      ],
+      "applicability": "素材研究、案例选取与当前事实核验",
+      "limits": "不能由历史作者体验保证今日产品能力"
+    },
+    {
+      "id": "L04",
+      "rule": "让案例比较、递进、修正或交接",
+      "evidence_ids": [
+        "C02",
+        "K12",
+        "K07"
+      ],
+      "applicability": "技术任务和人物/组织采用各自适合的记录字段",
+      "limits": "不把人物当作工具效果展示，不强迫每个案例相同长度"
+    },
+    {
+      "id": "L05",
+      "rule": "分别完善评测的可比条件与教程的完成路径",
+      "evidence_ids": [
+        "K25",
+        "X07",
+        "C28",
+        "C49"
+      ],
+      "applicability": "对照评测、教程及混合文章的相应部分",
+      "limits": "外部展示、单侧复现、亲测和不稳定技巧须区分"
+    },
+    {
+      "id": "L06",
+      "rule": "从正文兑现的价值产生标题并核对承诺",
+      "evidence_ids": [
+        "X44",
+        "X45",
+        "K25",
+        "C11"
+      ],
+      "applicability": "最终标题、开头与正文一致性",
+      "limits": "没有点击率因果验证，不把标题长度当成最优规律"
+    },
+    {
+      "id": "L07",
+      "rule": "区分事实、解释、预测和体验，写清依据与边界",
+      "evidence_ids": [
+        "X08",
+        "X28",
+        "C49",
+        "K48"
+      ],
+      "applicability": "分析、思考与案例归属",
+      "limits": "个人感受不必都量化，但保留处境；不能把他人结果写成我们的实测"
+    },
+    {
+      "id": "L08",
+      "rule": "按读者收益审稿，保留有作用的叙事与图片",
+      "evidence_ids": [
+        "C03",
+        "C02",
+        "K48",
+        "X02"
+      ],
+      "applicability": "全文审稿、篇幅分配和内容驱动配图",
+      "limits": "不要求每段一个数据点，不以扩写、重复建议或装饰图凑数"
+    }
+  ],
+  "representative_articles": [
+    {
+      "id": "X02",
+      "account": "夕小瑶科技说",
+      "author": "丸美小沐",
+      "title": "DeepSeek V4.1 Flash实测，花3亿token，14组任务，居然比上代贵",
+      "read_url": "https://m.huxiu.com/article/4889683.html",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247621260&idx=1&sn=31d0d3c79a113248752f0004d372cc1e&chksm=96fb7035849c1dec3badb6ce87108cf4f07ce75290ee4ffff442eb30f1d618c8643fddb3a87f#rd",
+      "published_at": "2026-09-09T09:32:30+08:00",
+      "date_kind": "reprint_publication_date; original date unverified",
+      "content_observation": "测评不能只展示漂亮成果；把速度分成生成、工具、返工，把费用关联任务行为，让反常结果成为文章主线",
+      "limits": "测试结论依赖作者Harness、测试时点和抽样；非通用能力排名。账单多为缓存输入，文中已解释；金融回测案例不能外推为策略建议。",
+      "media_scope": {
+        "text": "已完整阅读保存正文，包括全部段落和列表",
+        "images": "未逐图检查，仅据可见正文文字描述分析",
+        "videos": "未播放内嵌视频或动图，未宣称观看媒体",
+        "images_in_html": 21,
+        "videos_or_iframes_in_html": 0
+      }
+    },
+    {
+      "id": "X07",
+      "account": "夕小瑶科技说",
+      "author": "丸美小沐",
+      "title": "豆包、WorkBuddy、QoderWork怎么选？我用8个真实办公任务把三家桌面Agent测明白了",
+      "read_url": "https://m.huxiu.com/article/4875072.html",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618617&idx=1&sn=1a6c46618c485db94d050579b72d9eff&chksm=96c1d5d5c173848b63536b79223b3a83c56c3557f31886f0a557053f3ea246aea2dedeb4df61#rd",
+      "published_at": "2026-07-14T12:03:15+08:00",
+      "date_kind": "reprint_publication_date; original date unverified",
+      "content_observation": "选型文先定义验收标准，成功以交付送达而不是界面宣称完成计算；结尾给按需求选与免费真实任务试用路线",
+      "limits": "免费试用档、Mac和当时版本限制外推；若信息在汇总图片中，未观看即不据其新增细节。本研究未重复运行8项。",
+      "media_scope": {
+        "text": "已完整阅读保存正文，包括全部段落和列表",
+        "images": "未逐图检查，仅据可见正文文字描述分析",
+        "videos": "未播放内嵌视频或动图，未宣称观看媒体",
+        "images_in_html": 33,
+        "videos_or_iframes_in_html": 0
+      }
+    },
+    {
+      "id": "X08",
+      "account": "夕小瑶科技说",
+      "author": "丸美小沐",
+      "title": "美国富人放弃传统学校，一年花52万把孩子送进AI私塾",
+      "read_url": "https://m.huxiu.com/article/4873094.html",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247618289&idx=1&sn=d2c11c3354ce937a5152b92ab9ec57a5&chksm=96c7f84d782047d2d3d2936f9239ef3efe0e79f76a8ba8ea777d0c64629f22b1ccd7b07b1856#rd",
+      "published_at": "2026-07-06T23:24:48+08:00",
+      "date_kind": "reprint_publication_date; original date unverified",
+      "content_observation": "高价产品讨论应把宣传收益拆成软件、服务、人力、筛选效应；用文件与招聘信息核对宣传，最后区分事实和购买动机推测",
+      "limits": "学习加速等是校方声明，归因AI低贡献和富人动机是作者分析；不构成对特定儿童教育的效果判断，部分师生比口径应另核。",
+      "media_scope": {
+        "text": "已完整阅读保存正文，包括全部段落和列表",
+        "images": "未逐图检查，仅据可见正文文字描述分析",
+        "videos": "未播放内嵌视频或动图，未宣称观看媒体",
+        "images_in_html": 2,
+        "videos_or_iframes_in_html": 0
+      }
+    },
+    {
+      "id": "X28",
+      "account": "夕小瑶科技说",
+      "author": "丸美小沐",
+      "title": "图灵奖得主Don Knuth发论文致谢Claude",
+      "read_url": "https://m.huxiu.com/article/4839332.html",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247615277&idx=1&sn=c998df95bc15823468348a521525eaad&chksm=96115a28e7ebe8c21a986ebe9fa1c097aa485d031b6d916586619b842fd7fd19b892e317a233#rd",
+      "published_at": "2026-03-05T16:24:36+08:00",
+      "date_kind": "reprint_publication_date; original date unverified",
+      "content_observation": "科研故事必须把发现、程序验证、数学证明的分工拆开；失败回看和停机案例既推进叙事也界定AI作用",
+      "limits": "只依据报道未复核论文证明和代码；数学解释不能等同正式证明。人物赞誉不替代一般能力证据，人类引导不能被一小时神话省略。",
+      "media_scope": {
+        "text": "已完整阅读保存正文，包括全部段落和列表",
+        "images": "未逐图检查，仅据可见正文文字描述分析",
+        "videos": "未播放内嵌视频或动图，未宣称观看媒体",
+        "images_in_html": 2,
+        "videos_or_iframes_in_html": 0
+      }
+    },
+    {
+      "id": "X44",
+      "account": "夕小瑶科技说",
+      "author": "R.Zen",
+      "title": "我用Claude code开发了一个微信小程序：实测78个skills，这5个组合最香",
+      "read_url": "https://m.huxiu.com/article/4840706.html",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247615347&idx=1&sn=46c21532edd761430e44bd9416c0fa3d&chksm=96f59a79511326ed51a90df4c4788ff1da897e37717abf3232690afa8a2219bde450f553fc3f#rd",
+      "published_at": "2026-03-10T14:47:00+08:00",
+      "date_kind": "reprint_publication_date; original date unverified",
+      "content_observation": "案例教程沿阶段展示原请求为何失败、怎样改请求、如何验收；工具名称要服务当前问题，经验沉淀作为最后一步",
+      "limits": "标题实测78个与正文很多未打开矛盾；五个组合未做控制比较，本研究没跑代码。展示图和截图提示未逐图阅读，体积限制及安装命令需版本核验。",
+      "media_scope": {
+        "text": "已完整阅读保存正文，包括全部段落和列表",
+        "images": "未逐图检查，仅据可见正文文字描述分析",
+        "videos": "未播放内嵌视频或动图，未宣称观看媒体",
+        "images_in_html": 11,
+        "videos_or_iframes_in_html": 0
+      }
+    },
+    {
+      "id": "X45",
+      "account": "夕小瑶科技说",
+      "author": "Richard",
+      "title": "100万用户在线“调戏”ChatGPT，都聊了些啥？",
+      "read_url": "https://m.huxiu.com/article/3020859.html",
+      "original_url": "https://mp.weixin.qq.com/s/srLx0nwIQHJbsrvfq5SdwA",
+      "published_at": "2024-05-13T17:19:11+08:00",
+      "date_kind": "reprint_publication_date; original date unverified",
+      "content_observation": "数据集稿应交代采集人群、分析单位和训练用途；主题分布最能回答读者想知道大家聊什么的问题",
+      "limits": "百万对话不是百万用户，标题单位混淆；采样平台不能代表全部ChatGPT用户，匿名有害内容比例缺匿名总量分母。重复同数字和炼丹修辞稀释信息，微调全胜缺具体分数。",
+      "media_scope": {
+        "text": "已完整阅读保存正文，包括全部段落和列表",
+        "images": "未逐图检查，仅据可见正文文字描述分析",
+        "videos": "未播放内嵌视频或动图，未宣称观看媒体",
+        "images_in_html": 12,
+        "videos_or_iframes_in_html": 0
+      }
+    },
+    {
+      "id": "K07",
+      "account": "数字生命卡兹克",
+      "author": "数字生命卡兹克",
+      "title": "汉化组，可能是世界上最不怕AI冲击的一群人。",
+      "read_url": "https://m.pedaily.cn/news/569416",
+      "original_url": null,
+      "published_at": "2026-09-21T16:50:00+08:00",
+      "date_kind": "repost_timestamp",
+      "content_observation": "同一技术影响不同群体，要问其原始目的和收益，不能只套就业替代；通过反例调整作者判断才可信",
+      "limits": "样本为几位自愿交流者，不代表全部汉化生态；AI不会夹带私货是受访者观点，不能当事实",
+      "media_scope": "文字正文读完；未逐一观看内嵌图片与视频，案例细节以正文文字为依据"
+    },
+    {
+      "id": "K12",
+      "account": "数字生命卡兹克",
+      "author": "数字生命卡兹克",
+      "title": "那些被管理层请进公司，却不被一线员工接受的FDE们",
+      "read_url": "https://m.pedaily.cn/news/568313",
+      "original_url": null,
+      "published_at": "2026-08-31T08:42:00+08:00",
+      "date_kind": "repost_timestamp",
+      "content_observation": "产业概念文章要走进真实现场，分别揭示老板、员工、供应商的收益与阻力",
+      "limits": "几位受访者及匿名案例无法代表全行业；将阻碍解释为保饭碗属于推断",
+      "media_scope": "文字正文读完；未逐一观看内嵌图片与视频，案例细节以正文文字为依据"
+    },
+    {
+      "id": "K25",
+      "account": "数字生命卡兹克",
+      "author": "数字生命卡兹克",
+      "title": "今年高考，我让12个AI一起考了语文和数学",
+      "read_url": "https://m.pedaily.cn/news/564989",
+      "original_url": null,
+      "published_at": "2026-06-08T14:23:00+08:00",
+      "date_kind": "repost_timestamp",
+      "content_observation": "公共关切题材需要把公平方法写成正文的一部分，并解释数值差是否超过评分噪声",
+      "limits": "语文非整卷，主观评分及单次采样；未查看所有原始答卷和图表",
+      "media_scope": "文字正文读完；未逐一观看内嵌图片与视频，案例细节以正文文字为依据"
+    },
+    {
+      "id": "K36",
+      "account": "数字生命卡兹克",
+      "author": "数字生命卡兹克",
+      "title": "一个二本的女生，用免费的AI考上了北大",
+      "read_url": "https://news.pedaily.cn/202604/563224.shtml",
+      "original_url": null,
+      "published_at": "2026-04-27T15:43:00+08:00",
+      "date_kind": "repost_timestamp",
+      "content_observation": "人物案例的内容价值来自资源限制、具体做法和不使用工具的边界，反问能拆解成功标签",
+      "limits": "单人成功不能证明AI导致录取或普遍可复制；考试、排名和引语按访谈文字理解，未独立核验",
+      "media_scope": "完整阅读所保存正文文字；未逐一查看全部内嵌图片或视频，案例细节仅从正文文字提取，未验证视觉输出。"
+    },
+    {
+      "id": "K48",
+      "account": "数字生命卡兹克",
+      "author": "数字生命卡兹克",
+      "title": "GPT-4o，最后一夜",
+      "read_url": "https://m.pedaily.cn/news/561032",
+      "original_url": null,
+      "published_at": "2026-02-13T13:04:00+08:00",
+      "date_kind": "repost_timestamp",
+      "content_observation": "产品生命周期选题可以以用户关系与失去什么为收益，亲历对话为不可量化体验提供具体载体",
+      "limits": "文中下线范围未说清，不能据此认定所有调用入口停止；全球写作倒退、陪伴无商业价值等推断未充分证明，拟人化需审慎",
+      "media_scope": "完整阅读所保存正文文字；未逐一查看全部内嵌图片或视频，案例细节仅从正文文字提取，未验证视觉输出。"
+    },
+    {
+      "id": "C02",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔 & 阿汤",
+      "title": "实测LibTV1.5五大新功能，我把1个完整剧组搬进了AI短剧工作流",
+      "read_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511963&idx=1&sn=a8046b9f44949b1eed69a7c149c2efdb&chksm=cef4a851f9832147e2ac11d01f8371d0a8a8d492cca69f5959230c25a57c9ad24aaac0e7b463&cur_album_id=2918141197830045697&scene=189#wechat_redirect",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511963&idx=1&sn=a8046b9f44949b1eed69a7c149c2efdb&chksm=cef4a851f9832147e2ac11d01f8371d0a8a8d492cca69f5959230c25a57c9ad24aaac0e7b463&cur_album_id=2918141197830045697&scene=189#wechat_redirect",
+      "published_at": "2026-09-26",
+      "date_kind": "original_visible_date",
+      "content_observation": "按读者实际创作链路讲新功能，每一步写具体痛点和可逆修改点；用同一个作品避免散乱",
+      "limits": "文字叙述未提供重复成功率；视频成片效果未独立验证，不能冒充影视专业评价",
+      "media_scope": "完整阅读全文；全部内嵌样片未全看，记录的是文字中的镜头前后变化"
+    },
+    {
+      "id": "C03",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔 & 阿汤",
+      "title": "五大场景实测商汤图片模型SenseNova U1 Pro，我的工作流要换新了",
+      "read_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511896&idx=1&sn=730e55c79657d42cd929b416ca34b500&chksm=cef4a892f98321846ac7e36ec984c8e4a7ad2c7cfaea78be80ef1a109fd51c4914995141a66f&cur_album_id=2918141197830045697&scene=189#wechat_redirect",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247511896&idx=1&sn=730e55c79657d42cd929b416ca34b500&chksm=cef4a892f98321846ac7e36ec984c8e4a7ad2c7cfaea78be80ef1a109fd51c4914995141a66f&cur_album_id=2918141197830045697&scene=189#wechat_redirect",
+      "published_at": "2026-09-24",
+      "date_kind": "original_visible_date",
+      "content_observation": "围绕交付约束设计测试阶梯，从好看上升到信息一致与修改稳定，每层都给可复制任务",
+      "limits": "未独立核验图片中每个字与所搜权威资料；不能把作者感受当严谨基准或商用保证",
+      "media_scope": "完整阅读全文；未逐一放大检查图片或验证全部视觉判断"
+    },
+    {
+      "id": "C11",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔的AI沃茨",
+      "title": "5个问题测出值不值得学Claude Code平替之王OpenCode，还有最佳搭配！",
+      "read_url": "https://sspai.com/post/105258",
+      "original_url": null,
+      "published_at": "2026-01-12",
+      "date_kind": "author_republication_visible_date_not_original_wechat",
+      "content_observation": "工具文章可写成决策树，给不适合使用的分支，让读者获得选择标准而非追热点",
+      "limits": "费用、反代与账号政策是历史状态；不照搬可能有风险的接入方式为当前建议",
+      "media_scope": "完整阅读全文；操作未本次实际执行"
+    },
+    {
+      "id": "C14",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔",
+      "title": "看完影视飓风拍的AI代写，我用NotebookLM复现了工作流",
+      "read_url": "https://sspai.com/post/105303",
+      "original_url": null,
+      "published_at": "2026-01-09",
+      "date_kind": "author_republication_visible_date_not_original_wechat",
+      "content_observation": "写作教程应解释资料投入、理解检查与原创想法输入的顺序，输出草稿前留缺口而非硬填",
+      "limits": "信息源上限是当时产品状态；AI检测率与论文级严谨没有独立验证",
+      "media_scope": "完整阅读全文；未逐一观看内嵌图片/视频，效果细节来自正文，未独立验证模型能力"
+    },
+    {
+      "id": "C28",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔的AI沃茨",
+      "title": "为了上手ChatGPT的全新交互形态Canvas，我深挖出了6个使用技巧",
+      "read_url": "https://www.53ai.com/news/tishicijiqiao/2024101753498.html",
+      "original_url": null,
+      "published_at": "2024-10-17",
+      "date_kind": "republication_date_not_original",
+      "content_observation": "教程应区分自己预设的操作与实际机制，明确不稳定小技巧，写清失败症状和恢复路径",
+      "limits": "2024历史文章已延长时间范围；许多产品限制已经可能变化，不当作当前操作指南",
+      "media_scope": "完整阅读全文；内嵌图片和视频未逐一完整观看，所述能力来自作者文字，不是本次实测"
+    },
+    {
+      "id": "C46",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔的AI沃茨",
+      "title": "深度体验微信版R1三天后，这版DeepSeek的五个缺点被我挖出来了",
+      "read_url": "https://www.53ai.com/news/LargeLanguageModel/2025021839215.html",
+      "original_url": null,
+      "published_at": "2025-02-18",
+      "date_kind": "republication_date_not_original",
+      "content_observation": "产品缺点评测用具体错误说明边界，并及时补注改变；搜索总结必须先确认来源被实际读取。",
+      "limits": "免费持续性和硬件并发推算来自第三方，不能作为事实承诺；样本十来次不是全面统计；不接个人信息也有权限边界，不能一律写作缺点。",
+      "media_scope": "全文文字完整阅读；截图未全看，未取得该内测或独立复测。"
+    },
+    {
+      "id": "C49",
+      "account": "卡尔的AI沃茨",
+      "author": "卡尔的AI沃茨",
+      "title": "我给GPT Agent和Manus安排了场像素级对比，OpenAI不该把PPT当卖点",
+      "read_url": "https://www.53ai.com/news/LargeLanguageModel/2025071991753.html",
+      "original_url": null,
+      "published_at": "2025-07-19",
+      "date_kind": "republication_date_not_original",
+      "content_observation": "比较稿主动披露输入不一致、失败成本与结论反转；每个任务使用相应评判标准，比单一冠军结论更有帮助。",
+      "limits": "GPT侧多为官方/早期用户演示、作者复现Manus，非完全同环境亲测；Gemini裁判不替代事实核验；消费行程与基准只作历史材料。",
+      "media_scope": "全文文字完整阅读；GPT演示及Manus输出图未全看，未复跑旅行或确认数据与预订。"
+    }
+  ]
+}

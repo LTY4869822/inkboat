@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "zhouxing": {
+    "repository": "https://github.com/Kianzzz/zhouxing-paiban-wx",
+    "commit": "not_recorded_by_original_install",
+    "files": {
+      "SKILL.md": "df5e715ac95689ae0c2a0f940aaf1ca81306d9a13142a4f2caf08cd9ae2eb774",
+      "scripts/build_preview.py": "e7ecf87b7e2c85ed06e9c0c29560136968d9f2911904c1c5ec0c193a4d74f9ca",
+      "scripts/validate_theme.py": "d452a448ac63404c24a38b1c2e1bd1552a0e7c92331c7667cbdb94698bb5b550"
+    },
+    "scope": "Actual local ten-theme rendering and workshop smoke test; hashes identify observed dependency, not a claim about all future upstream versions"
+  },
+  "runtime": {
+    "python": "3.12.8",
+    "node": "24.15.0",
+    "playwright": "1.62.1",
+    "pngjs": "7.0.0"
+  }
+}

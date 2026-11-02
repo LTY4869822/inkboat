@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "purpose": "Reusable sample backgrounds for the motion gallery; article artwork remains content-specific",
+  "generator": "Native image_gen image generation tool",
+  "model_version": "Not independently verified; do not claim a specific model version",
+  "created_at": "2026-10-05",
+  "third_party_code": "No third-party animation code copied; the SVG designs and studio bridge are original",
+  "files": [
+    {
+      "path": "cinema.png",
+      "sha256": "5282f1b96a9cec11647d8251615405cd4d0c88028675392649133f3d70999662"
+    },
+    {
+      "path": "ink.png",
+      "sha256": "a21de594f179c802e94abc411d08186080db7db254505cd543d3421d6d4f44c7"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+  "commit": "27d29232f10124db904ca9c0536d0b67cb3b2833",
+  "installed_at": "2026-10-08T03:17:47.090964+00:00",
+  "license": "MIT",
+  "files": {
+    ".gitignore": "3b4cc45539f600e3baafa95d3342d6efa4b2e7fa51f5dbdc9430d06e6b94532a",
+    "LICENSE": "ea0bb158cb3b86076842202461a9bef2bd96d560dc76b3ef5d7a2c0f326c55b9",
+    "README.en.md": "34bad032f03e16ee34e51365adae44b56a9886f0097ccd9c86585f6016f8a3ac",
+    "README.md": "c9597f2f3e691bfedaa014ada5efa98278178fb9f08e3d3163c25d845c4041ba",
+    "RESEARCH.en.md": "415b072a7ecabbfba5e4dec1c54eff03eea085aa2c1576e1412b14e46d889839",
+    "RESEARCH.md": "13ee179aa2add5c1b3ec910c1ad79c5791a2865e2b7f221a6d17c65b47672f52",
+    "SKILL.md": "c55dec1765c2d6ce31f9e03e62876b36a3a65af830350d4d0d5bab6df766b042",
+    "assets/less-ai-tone-hero-en.png": "9e1eda7518828df70d12f1850d2f5e04b27d37e25ee55fea2266d63b6a471716",
+    "assets/less-ai-tone-hero-zh.png": "5d755874cfaca2d5209b084e4e0e623d4f5cb1624f2c0e906d02801136abe828",
+    "scripts/check-structure.py": "287fc3bbc8299bdadb1b9ad660b3c3b7ed6a030259b3398bb05bc23cc0b9a7ec",
+    "scripts/check-translationese.py": "09233c35e5f2e341f301265482a1a3e124dcd32d312102d86447f0c5bc0667bf",
+    "scripts/compare-human-ai.py": "aca850a2a2ee56b7469c4327ef37105708e590fe744004f16672f81acbdde701"
+  }
+}

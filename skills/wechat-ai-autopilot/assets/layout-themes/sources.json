@@ -1,0 +1,21 @@
+{
+  "retrieved_at": "2026-10-05",
+  "scope": "配色参考，不参考文章或网页排版",
+  "sources": [
+    {
+      "url": "https://zhuanti.mct.gov.cn/ggbwy2022/2648.html",
+      "title": "文化和旅游部：故宫口红",
+      "use": "传统色名、器物与现代设计的关系；不是网页布局参考"
+    },
+    {
+      "url": "https://www.dpm.org.cn/auditions/knowledge.html",
+      "title": "故宫博物院：故宫知识课堂",
+      "use": "红、黄、蓝、绿、白的文化意象；不是网页布局参考"
+    },
+    {
+      "url": "https://chinesecoloratlas.com/zh-Hans/guides/chinese-traditional-colors",
+      "title": "Chinese Color Atlas：中国传统色",
+      "use": "月白、胭脂等色族及现代设计用法；实际配色已按阅读对比度调整"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "confirmed_at": "2026-10-05",
+  "user_instruction": "确认",
+  "scope": "确认五套结构与配色修订版加入wechat-ai-autopilot；不授权发布文章",
+  "themes": [
+    {
+      "id": "celadon-knowledge",
+      "name": "天青格物",
+      "sha256": "bbdffab8813f161c99b6ddaeca0e3ae57c87bac14034f3aec260e1070421870b"
+    },
+    {
+      "id": "cinnabar-cultural",
+      "name": "朱砂文藏",
+      "sha256": "4d868019cf9b5805bebe26a684d1065f28b72054c19bac726358ebd0c9892aea"
+    },
+    {
+      "id": "moonwhite-literary",
+      "name": "月白笺书",
+      "sha256": "b32ea50693e4b8620182d38593ff67f261b50d9dcf06e3a4622f3f4c9966d636"
+    },
+    {
+      "id": "pine-fieldnotes",
+      "name": "松烟行旅",
+      "sha256": "ba346be5a470333658a2fe4cbcc041ed8a514676bc2ed4408ca4579f9074603b"
+    },
+    {
+      "id": "rouge-daily",
+      "name": "胭脂生活",
+      "sha256": "4e1c333d17d51696c77b8abfafb6f6e73dd640cbc2b180b1bcb2dae4d36ec80d"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+name: 问题反馈
+description: 提交可复现的问题，不含账号或凭证
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: 版本、系统与 Agent 宿主
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际结果
+      description: 写明发生阶段、命令和脱敏错误；不要上传 Cookie、二维码或 token 链接。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为及已有排查

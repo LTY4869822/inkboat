@@ -1,0 +1,27 @@
+{
+  "id": "rouge-daily",
+  "name": "胭脂生活",
+  "description": "连续叙述中留有柔和停顿的生活随笔；适合情感随笔、自我成长、日常生活、关系沟通",
+  "order": 105,
+  "default": false,
+  "accent": "#884454",
+  "hue_range": 60,
+  "heading_label": null,
+  "h1_watermark": "",
+  "h1_kicker": "",
+  "css": "\n.note-to-mp {box-sizing:border-box;max-width:640px;margin:0 auto;padding:18px 20px 40px;background:#FFFFFF;color:#30383D;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',Arial,sans-serif;font-size:16px;line-height:1.9!important;word-break:break-word;overflow-wrap:break-word;}\n.note-to-mp * {box-sizing:border-box;}\n.note-to-mp p {margin:0 0 22px!important;font-size:16px;line-height:1.9!important;letter-spacing:.03em;text-align:justify!important;}\n.note-to-mp h1 {margin:0 0 28px;font-size:24px;font-weight:700;line-height:1.5!important;word-break:break-word;}\n.note-to-mp h2 {margin:44px 0 22px!important;font-size:20px;font-weight:700;line-height:1.5!important;}\n.note-to-mp h3 {margin:28px 0 16px!important;font-size:17px;font-weight:700;line-height:1.55!important;}\n.note-to-mp h4,.note-to-mp h5,.note-to-mp h6 {margin:24px 0 12px!important;font-size:16px;font-weight:700;line-height:1.55!important;}\n.note-to-mp strong {font-weight:700;}\n.note-to-mp em {font-style:italic;}\n.note-to-mp a {text-decoration:none;border-bottom:1px solid currentColor;}\n.note-to-mp blockquote {margin:28px 0!important;padding:20px;}\n.note-to-mp blockquote p {margin:0!important;font-size:15px;line-height:1.85!important;text-align:inherit!important;}\n.note-to-mp ul,.note-to-mp ol {margin:0 0 24px;padding:0 0 0 25px;line-height:1.85!important;}\n.note-to-mp li {margin:10px 0;padding-left:3px;font-size:16px;line-height:1.85!important;}\n.note-to-mp code {padding:2px 5px;border-radius:3px;background:#F1F4F5;color:#34474F;font-family:Menlo,Monaco,Consolas,monospace;font-size:14px;white-space:normal;overflow-wrap:anywhere;}\n.note-to-mp .code-section {margin:24px 0;overflow:hidden;border:1px solid #DFE5E8;background:#F6F8F9;border-radius:4px;}\n.note-to-mp .code-section pre {margin:0;padding:16px;white-space:pre-wrap!important;word-break:break-all!important;}\n.note-to-mp .code-section code {display:block;padding:0;background:transparent;border:none;font-size:13px;line-height:1.7!important;}\n.note-to-mp img {display:block;width:100%;max-width:100%;height:auto;margin:28px auto;border:0;}\n.note-to-mp hr {height:0;border:0;border-top:1px solid #DFE5E8;margin:40px 0;}\n.note-to-mp table {width:100%;table-layout:fixed;box-sizing:border-box;margin:24px 0;border-collapse:collapse;border-spacing:0;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',Arial,sans-serif;font-size:13px;line-height:1.7!important;}\n.note-to-mp th,.note-to-mp td {box-sizing:border-box;padding:10px 9px;text-align:left;vertical-align:top;white-space:normal;word-break:break-word;overflow-wrap:anywhere;border-bottom:1px solid #E1E5E7;}\n.note-to-mp th {font-weight:700;}\n\n.note-to-mp {max-width:632px;padding:27px 22px 48px;color:#332E30;line-height:2!important;}\n.note-to-mp p {line-height:2!important;letter-spacing:.015em;margin-bottom:27px!important;}\n.note-to-mp h1 {padding:0 0 22px;color:#332E30;font-weight:700;font-size:24px;line-height:1.55!important;border-bottom:1px solid #D7B8C1;letter-spacing:.035em;}\n.note-to-mp h2 {margin:46px 0 24px!important;padding:0;background:#FFFFFF;color:#884454;font-size:19px;font-weight:650;letter-spacing:.035em;}\n.note-to-mp h3 {margin:29px 0 17px!important;color:#332E30;font-size:17px;font-weight:650;padding:0;}\n.note-to-mp h4,.note-to-mp h5,.note-to-mp h6 {color:#884454;}\n.note-to-mp strong {color:#884454;font-weight:700;background:transparent;padding:0;}\n.note-to-mp em,.note-to-mp a {color:#884454;}\n.note-to-mp blockquote {margin:33px 0!important;padding:24px 22px;background:#FBF5F6;color:#743B49;border:0;border-radius:20px 2px 20px 2px;text-align:left;}\n.note-to-mp blockquote p {font-size:17px;line-height:1.95!important;}\n.note-to-mp ul {list-style-type:circle;padding-left:24px;background:transparent;}\n.note-to-mp ol {list-style-type:decimal;padding-left:27px;background:transparent;}\n.note-to-mp li {margin:13px 0;padding-left:4px;font-size:16px;line-height:1.95!important;}\n.note-to-mp li::marker {color:#884454;}\n.note-to-mp img {border:0;border-radius:0;margin:32px auto;}\n.note-to-mp hr {width:34%;border-top:1px solid #D7B8C1;margin:43px auto;}\n.note-to-mp code {background:#FBF5F6;color:#743B49;border-radius:2px;}\n.note-to-mp .code-section {background:#FBF5F6;border:0;border-radius:2px;border-bottom:1px solid #D7B8C1;}\n.note-to-mp .code-section code {color:#332E30;}\n.note-to-mp th {background:#FBF5F6;color:#743B49;border-top:0;border-bottom:1px solid #D7B8C1;}\n.note-to-mp td {background:#FFFFFF;color:#332E30;border-bottom:1px solid #EEE3E7;}\n",
+  "evidence": {
+    "source_type": "original",
+    "source": "原创排版；仅借鉴配色文化意象，参考链接见本预览包sources.json",
+    "observed": [
+      "官方参考以天青、月白、朱砂等传统色名说明设计灵感；未复刻参考网站排版"
+    ],
+    "inferred": [
+      "本稿HEX是为现代手机阅读调整的设计色值，不是历史颜色的唯一标准"
+    ],
+    "unobserved": [
+      "尚未在微信公众平台及真实手机客户端验收"
+    ],
+    "confidence": "medium"
+  }
+}

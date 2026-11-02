@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/blader/humanizer",
+  "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+  "files": {
+    "SKILL.md": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+    "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+    "README.md": "a07a054f230dca1e3d25e32ba6c808905b743cc6fa56bf8b6868cee0b12a0432"
+  },
+  "license": "MIT",
+  "integration": "Original instructions vendored; Chinese style-preserving adapter maintained separately"
+}
